@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         boxView.translatesAutoresizingMaskIntoConstraints = false
         boxView.backgroundColor = UIColor.red
         boxView.frame.origin.y = view.safeAreaInsets.top + 120
+        boxView.layer.cornerRadius = 8
         
         view.addSubview(boxView)
         
